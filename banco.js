@@ -3,7 +3,7 @@ require('dotenv').config()
 
 const conexao = new sequelize(
     process.env.DB_HOST,
-    {dialect:"postgres"}
+    {dialect:"postgress"}
 )
 
 module.exports = { conexao }
